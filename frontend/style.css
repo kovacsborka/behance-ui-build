@@ -34,14 +34,30 @@ border-radius: 0;
 
 /* ------------- CSS reset end ------------- */
 
-.logo {
-    width: 80%;
-    
+body {
+    margin: 0;
+    background-color: #f9ebd9;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.logo {
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 35px;
+    padding-top: 25px;
 }
