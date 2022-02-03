@@ -142,7 +142,7 @@ section {
 .entrance {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 70vh;
     margin: 80px auto;
     margin-bottom: 0;
 }
@@ -156,19 +156,27 @@ section {
 
 
 section.firstsubpage h4 {
-    display: inline-block;
+    display: block;
+    position: absolute;
 }
 
-.italic {
+/* .italic {
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
-    /* font-style: italic; */
-}
+    font-style: italic;
+} */
 
 p.x {
     display: flex;
     justify-content: center;
     font-weight: lighter;
     margin-top: 30px;
+}
 
+div.text {
+    display: block;
+    position: relative;
+    margin: 20px auto  ;
+    line-height: 30px;
+    max-width: 500px;
 }
