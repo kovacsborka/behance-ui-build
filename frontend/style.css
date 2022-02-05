@@ -234,6 +234,12 @@ p.x2 {
 
 /* ------------------------------- third subpage ------------------------------------ */
 
+.thirdsubpage {
+    display: block;
+    margin-top: 100px;
+}
+
+
 .text3 {
     display: flex;
     position: absolute;
@@ -247,3 +253,12 @@ p.x2 {
     z-index: -1;
 }
 
+.arrow2 {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.whatsonimg {
+    
+}
