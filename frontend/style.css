@@ -42,8 +42,8 @@ html {
 body {
     margin: 0;
     background-color: #fef4eb;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-family: 'Circular';
+    font-weight: 400; 
     /* letter-spacing: 0.1em; */
 }
 
@@ -98,7 +98,7 @@ nav ul {
 
 nav li {
     display: flex;
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 100%;
     height: 100%;
     align-items: center;
@@ -139,6 +139,9 @@ nav ul li:hover {
 } */
 
 /* ------------------------------ first subpage ------------------------------- */
+h4 {
+    font-weight: normal;
+}
 
 section {
     width: 100%;
@@ -201,13 +204,15 @@ div.text {
 }
 
 .arrow {
+    display: block;
     position: relative;
     left: 50%;
     top: 100%;
     transform: translate(-50%);
     width: 30px;
     height: 30px;
-
+    z-index: 1;
+    /* háttérnek a képet */
 }
 
 /* -------------------------------------- second subpage ------------------------------- */

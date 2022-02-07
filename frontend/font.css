@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "Circular";
+    font-weight: 700;
+    font-style: normal;
+    src: url("fonts/CircularXXWeb-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/CircularXXWeb-Book.woff2") format("woff2");
+}
+
+/* Domaine */
+
+@font-face {
+    font-family: 'Domaine';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/domaine-display-narrow-web-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Domaine';
+    font-weight: 400;
+    font-style: italic;
+    src: url('fonts/domaine-display-narrow-web-regular-italic.woff2') format('woff2');
+}
