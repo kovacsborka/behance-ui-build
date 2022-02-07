@@ -235,17 +235,18 @@ p.x2 {
 /* ------------------------------- third subpage ------------------------------------ */
 
 .thirdsubpage {
+    position: relative;
     display: block;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
 .text3 {
     display: flex;
-    position: absolute;
-    left: 60px;
+    position: relative;
+    left: 50px;
     height: 100px;
-    margin: 20px auto  ;
+    margin: 20px 50px  ;
     line-height: 40px;
     max-width: 600px;
     text-align: left;
@@ -260,5 +261,15 @@ p.x2 {
 }
 
 .whatsonimg {
-    
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 350px;
+
+}
+
+.arrow3 {
+    position: absolute;
+    top: 420px;
+    left: 100px;
 }
